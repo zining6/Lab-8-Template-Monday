@@ -1,6 +1,6 @@
 package com.example.simpleparadox.listycity;
 
-import java.util.ArrayList;
+// import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
