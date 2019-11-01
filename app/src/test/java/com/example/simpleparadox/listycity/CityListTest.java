@@ -98,6 +98,6 @@ class CityListTest {
         City city1 = new City("Hengyang", "HuNan");
         cityList.add(city1);
         assertEquals(3, cityList.countCities());
-    }
+    
     }
 }
