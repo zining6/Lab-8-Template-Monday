@@ -87,7 +87,7 @@ class CityListTest {
         });
     }
 
-    @Test
+   @Test
     void testCountCities() {
         CityList cityList = mockCityList();
 
@@ -95,8 +95,9 @@ class CityListTest {
         City city = new City("ChangSha", "HuNan");
         cityList.add(city);
         assertEquals(2, cityList.countCities());
-        City city1 = new City("HengYang", "HuNan");
+        City city1 = new City("Hengyang", "HuNan");
         cityList.add(city1);
-        assertEquals(2, cityList.countCities());
+        assertEquals(3, cityList.countCities());
+    }
     }
 }
